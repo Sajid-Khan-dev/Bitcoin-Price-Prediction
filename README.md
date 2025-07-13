@@ -30,7 +30,7 @@ This project predicts Bitcoin (BTC-USD) closing prices using real historical dat
      - Suggest random parameters (`learning_rate`, `depth`, etc.)
      - Train and evaluate model
      - Return RMSE to minimize
-   - Runs 25 trials to find the best hyperparameters.
+   - Runs at least 25 trials to find the best hyperparameters(I used 5 trials).
 
 6. **📉 Final Training & Prediction**  
    - Retrains model using the best parameters found.
